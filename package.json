@@ -1,0 +1,21 @@
+{
+  "name": "controlalumnos",
+  "version": "1.0.0",
+  "description": "18 de febrero del 2021 / Control de Alumnos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Noel Aguirre",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
